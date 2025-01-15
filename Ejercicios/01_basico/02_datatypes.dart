@@ -26,5 +26,12 @@ main() {
   O'Connor
   ''';
 
-  print(multiline);
+  // print(multiline);
+
+  // booleans
+
+  bool isActive = true;
+  bool isNotActive = !isActive;
+
+  // print(isNotActive);
 }
