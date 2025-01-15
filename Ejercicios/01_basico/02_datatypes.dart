@@ -10,5 +10,21 @@ main() {
 
   double resultado = _a + $b;
 
-  print(resultado);
+  // print(resultado);
+
+  // Strings
+  String nombre = 'Tony';
+  String nombre2 = "Tony";
+  String apellido = 'Stark';
+
+  String nombreCompleto = '$nombre $apellido';
+
+  String multiline = '''
+  Hola Mundo
+  ¿Como estás?
+  $nombreCompleto
+  O'Connor
+  ''';
+
+  print(multiline);
 }
