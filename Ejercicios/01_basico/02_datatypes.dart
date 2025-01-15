@@ -34,4 +34,32 @@ main() {
   bool isNotActive = !isActive;
 
   // print(isNotActive);
+
+  // Listas
+
+  List<String> villanos = ['Lex', 'Red Skull', 'Doom'];
+
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+  villanos.add('Duende Verde');
+
+  // print(villanos);
+
+  // Sets
+  Set<String> villanos2 = {'Lex', 'Red Skull', 'Doom'};
+
+  // print(villanos.toSet().toList());
+
+  // print(villanos2);
+
+  // Maps - Diccionarios
+
+  var ironman = {
+    'nombre': 'Tony Stark',
+    'poder': 'Inteligencia y Dinero',
+    'nivel': 9000
+  };
+
+  print(ironman);
 }
