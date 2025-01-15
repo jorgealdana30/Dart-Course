@@ -55,11 +55,23 @@ main() {
 
   // Maps - Diccionarios
 
-  var ironman = {
+  Map<String, dynamic> ironman = {
     'nombre': 'Tony Stark',
     'poder': 'Inteligencia y Dinero',
     'nivel': 9000
   };
 
-  print(ironman);
+  Map<String, dynamic> capitan = new Map();
+
+  capitan.addAll({
+    'nombre' : 'Steve',
+    'poder'  : 'Soportar droga sin morir',
+    'nivel'  :  5000
+  });
+
+  capitan.addAll(ironman);
+  print(capitan);
+
+  // print(ironman);
+  // print( ironman['poder']);
 }
