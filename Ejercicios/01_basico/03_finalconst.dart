@@ -8,8 +8,14 @@ main () {
   List<String> personasConst2 = const ['Juan', 'José', 'Luis'];
 
   personasFinal.add('Andrea');
-  personasConst.add('Jorge');
-  print(personasFinal);
-  print(personasConst);
+
+  // print(personasFinal);
+  // print(personasConst);
+
+
+  //late initializer
+  late final double x;
+  x = 10.25;
+  print(x);
 
 }
