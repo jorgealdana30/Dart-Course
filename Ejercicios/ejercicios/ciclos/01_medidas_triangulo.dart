@@ -8,14 +8,14 @@ main() {
     double base = ReadAndWrite.readDouble('Ingrese base del triangulo ${i+1}');
     double altura = ReadAndWrite.readDouble('Ingrese altura del triangulo ${i+1}');
 
-    double superficie = calcSuperficie(base, altura);
-    print('La superficie del triangulo es: $superficie');
+    double superficial = calcSuperficie(base, altura);
+    print('La superficial del triangulo es: $superficial');
 
-    if(superficie > 12)
+    if(superficial > 12)
       count++;
   }
 
-  print('La cantidad de triangulos con superficie mayor a 12 es: $count');
+  print('La cantidad de triangulos con superficial mayor a 12 es: $count');
 }
 
 double calcSuperficie(double base, double altura) {
