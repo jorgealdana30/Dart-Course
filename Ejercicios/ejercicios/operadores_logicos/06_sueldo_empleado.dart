@@ -1,12 +1,11 @@
 import 'dart:io';
 
+import '../shared/utils/read_and_write.dart';
+
 main() {
 
-  stdout.writeln('Escribe sueldo del empleado');
-  int sueldo = int.parse(stdin.readLineSync() ?? '');
-
-  stdout.writeln('Escribe años de antiguedad del empleado');
-  int antiguedad = int.parse(stdin.readLineSync() ?? '');
+  int sueldo = ReadAndWrite.readNumber('Escribe sueldo del empleado');
+  int antiguedad = ReadAndWrite.readNumber('Escribe años de antiguedad del empleado');
 
   if (sueldo >= 500) {
     print('Sueldo sin cambios');

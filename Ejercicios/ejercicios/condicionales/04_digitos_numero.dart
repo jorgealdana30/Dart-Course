@@ -1,8 +1,9 @@
 import 'dart:io';
 
+import '../shared/utils/read_and_write.dart';
+
 main () {
-  stdout.writeln('Ingresa un numero positivo del 1 al 999');
-  int number = int.parse(stdin.readLineSync() ?? '0');
+  int number = ReadAndWrite.readNumber('Ingresa un numero positivo del 1 al 999');
 
   if (number > 99){
     print('El numero tiene tres digitos');

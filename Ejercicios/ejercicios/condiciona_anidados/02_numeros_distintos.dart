@@ -1,14 +1,11 @@
 import 'dart:io';
 
+import '../shared/utils/read_and_write.dart';
+
 main() {
-  stdout.writeln('Ingresa el primer numero: ');
-  int number1 = int.parse(stdin.readLineSync() ?? '0');
-
-  stdout.writeln('Ingresa el segundo numero: ');
-  int number2 = int.parse(stdin.readLineSync() ?? '0');
-
-  stdout.writeln('Ingresa el tercer numero: ');
-  int number3 = int.parse(stdin.readLineSync() ?? '0');
+  int number1 = ReadAndWrite.readNumber('Ingresa el primer numero: ');
+  int number2 = ReadAndWrite.readNumber('Ingresa el segundo numero: ');
+  int number3 = ReadAndWrite.readNumber('Ingresa el tercer numero: ');
 
   if (number1 > number2 && number1 > number3){
     print('Numero 1 es el mayor');

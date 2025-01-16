@@ -1,12 +1,11 @@
 import 'dart:io';
 
+import '../shared/utils/read_and_write.dart';
+
 main() {
 
-  stdout.writeln('Escribe X');
-  int x = int.parse(stdin.readLineSync() ?? '');
-
-  stdout.writeln('Escribe Y');
-  int y = int.parse(stdin.readLineSync() ?? '');
+  int x = ReadAndWrite.readNumber('Escribe X');
+  int y = ReadAndWrite.readNumber('Escribe Y');
 
   if (x > 0 && y > 0){
     print('La coordenada está en el primer cuadrante');

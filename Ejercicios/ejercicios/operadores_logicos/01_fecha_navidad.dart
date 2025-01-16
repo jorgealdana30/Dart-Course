@@ -1,11 +1,10 @@
 import 'dart:io';
 
-main () {
-  stdout.writeln('Escribe un día');
-  String? dia = stdin.readLineSync();
+import '../shared/utils/read_and_write.dart';
 
-  stdout.writeln('Escribe un mes');
-  String? mes = stdin.readLineSync();
+main () {
+  String? dia = ReadAndWrite.readString('Escribe un día');
+  String? mes = ReadAndWrite.readString('Escribe un mes');
 
   if (dia == '25' && mes == '12')
     print('Es navidad!!!!');

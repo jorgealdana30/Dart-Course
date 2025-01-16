@@ -1,14 +1,12 @@
 import 'dart:io';
 
+import '../shared/utils/read_and_write.dart';
+
 main () {
   stdout.writeln('Escribe primera nota: ');
-  double nota1 = double.parse(stdin.readLineSync() ?? '0.0');
-
-  stdout.writeln('Escribe Segunda nota: ');
-  double nota2 = double.parse(stdin.readLineSync() ?? '0.0');
-
-  stdout.writeln('Escribe tercera nota: ');
-  double nota3 = double.parse(stdin.readLineSync() ?? '0.0');
+  double nota1 = ReadAndWrite.readDouble('Escribe primera nota: ');
+  double nota2 = ReadAndWrite.readDouble('Escribe segunda nota: ');
+  double nota3 = ReadAndWrite.readDouble('Escribe tercera nota: ');
 
   double promedio = (nota1 + nota2 + nota3) / 3;
 

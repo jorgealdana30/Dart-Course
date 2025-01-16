@@ -1,11 +1,10 @@
 import 'dart:io';
 
-main() {
-  stdout.writeln('Ingresa la cantidad de preguntas');
-  int cantidadPreguntas = int.parse(stdin.readLineSync() ?? '0');
+import '../shared/utils/read_and_write.dart';
 
-  stdout.writeln('Ingresa la cantidad de respuestas acertadas');
-  int cantidadAcertadas = int.parse(stdin.readLineSync() ?? '0');
+main() {
+  int cantidadPreguntas = ReadAndWrite.readNumber('Ingresa la cantidad de preguntas');
+  int cantidadAcertadas = ReadAndWrite.readNumber('Ingresa la cantidad de respuestas acertadas');
 
   double resultado = (cantidadAcertadas * 100) / cantidadPreguntas;
 

@@ -1,8 +1,9 @@
 import 'dart:io';
 
+import '../shared/utils/read_and_write.dart';
+
 main() {
-  stdout.writeln('Ingresa el primer numero: ');
-  int? number = int.tryParse(stdin.readLineSync() ?? '0');
+  int? number = ReadAndWrite.readNumberOrNull('Ingresa el primer numero: ');
 
   if (number == null) {
     print('El numero es nulo');
