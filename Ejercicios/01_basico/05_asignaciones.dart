@@ -14,4 +14,16 @@ main () {
 
   int d = b ?? a ?? 100; // toma valor de a si b es nulo, si no, asigna b, se puede poner todas la condiciones que se requieran
   print(d);
+
+  //Operadores relaciones
+  //Todos retornan un valor booleano
+  /*
+    >, <, >=, <=, ==, !=
+   */
+  //Operador de tipo
+  int i = 10;
+  String jh = '10';
+
+  print( i is !int);
+
 }
