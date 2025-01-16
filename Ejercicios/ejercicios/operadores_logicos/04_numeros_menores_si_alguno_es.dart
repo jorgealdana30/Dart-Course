@@ -11,14 +11,7 @@ main() {
   stdout.writeln('Escribe tercer numero');
   int number3 = int.parse(stdin.readLineSync() ?? '');
 
-  if (number1 > 9)
-    return;
-
-  if (number2 > 9)
-    return;
-
-  if(number3 > 9)
-    return;
-
-  print('Todos los numeros son menores a 10');
+  if (number1 < 9 || number2 < 9 || number3 < 9) {
+    print('Alguno de los numeros es menor a 10');
+  }
 }
