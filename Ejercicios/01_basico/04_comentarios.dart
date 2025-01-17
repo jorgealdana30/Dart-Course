@@ -3,8 +3,7 @@
 
  */
 
-main () {
-
+main() {
   // comentario simple
   int a = 10;
 
@@ -15,6 +14,5 @@ main () {
   /**
    * Funcion para saludar, usa dos parametros [nombre] y el [mensaje]
    */
-  void saludar (int nombre, int mensaje) {}
-
+  void saludar(int nombre, int mensaje) {}
 }

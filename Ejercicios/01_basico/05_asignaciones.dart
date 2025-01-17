@@ -1,4 +1,4 @@
-main () {
+main() {
   int a = 10;
   int? b = 1;
 
@@ -12,7 +12,9 @@ main () {
   String resp = c > 25 ? 'C es mayor a 25' : 'C es menor a 25';
   // print(resp);
 
-  int d = b ?? a ?? 100; // toma valor de a si b es nulo, si no, asigna b, se puede poner todas la condiciones que se requieran
+  int d = b ??
+      a ??
+      100; // toma valor de a si b es nulo, si no, asigna b, se puede poner todas la condiciones que se requieran
   print(d);
 
   //Operadores relaciones
@@ -24,6 +26,5 @@ main () {
   int i = 10;
   String jh = '10';
 
-  print( i is !int);
-
+  print(i is! int);
 }

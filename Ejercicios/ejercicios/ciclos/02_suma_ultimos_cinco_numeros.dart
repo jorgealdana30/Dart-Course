@@ -1,11 +1,10 @@
 import '../shared/utils/read_and_write.dart';
 
-main () {
+main() {
   int suma = 0;
   for (int i = 0; i < 10; i++) {
     int numero = ReadAndWrite.readNumber('Escribe un numero');
-    if (i < 5)
-      continue;
+    if (i < 5) continue;
     suma += numero;
   }
 

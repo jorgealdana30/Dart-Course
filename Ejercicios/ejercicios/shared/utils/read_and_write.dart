@@ -1,7 +1,6 @@
 import 'dart:io';
 
 class ReadAndWrite {
-
   static int readNumber(String prompt) {
     stdout.writeln(prompt);
     return int.parse(stdin.readLineSync() ?? '0');

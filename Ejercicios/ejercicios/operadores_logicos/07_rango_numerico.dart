@@ -3,13 +3,14 @@ import 'dart:io';
 import '../shared/utils/read_and_write.dart';
 
 void main() {
-
   int findMin(int a, int b, int c) {
-    return [a, b, c].reduce((value, element) => value < element ? value : element);
+    return [a, b, c]
+        .reduce((value, element) => value < element ? value : element);
   }
 
   int findMax(int a, int b, int c) {
-    return [a, b, c].reduce((value, element) => value > element ? value : element);
+    return [a, b, c]
+        .reduce((value, element) => value > element ? value : element);
   }
 
   int num1 = ReadAndWrite.readNumber('Escribe primer numero');

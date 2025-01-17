@@ -3,8 +3,10 @@ import 'dart:io';
 import '../shared/utils/read_and_write.dart';
 
 main() {
-  int cantidadPreguntas = ReadAndWrite.readNumber('Ingresa la cantidad de preguntas');
-  int cantidadAcertadas = ReadAndWrite.readNumber('Ingresa la cantidad de respuestas acertadas');
+  int cantidadPreguntas =
+      ReadAndWrite.readNumber('Ingresa la cantidad de preguntas');
+  int cantidadAcertadas =
+      ReadAndWrite.readNumber('Ingresa la cantidad de respuestas acertadas');
 
   double resultado = (cantidadAcertadas * 100) / cantidadPreguntas;
 

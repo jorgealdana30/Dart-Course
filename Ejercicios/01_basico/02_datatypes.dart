@@ -63,11 +63,8 @@ main() {
 
   Map<String, dynamic> capitan = new Map();
 
-  capitan.addAll({
-    'nombre' : 'Steve',
-    'poder'  : 'Soportar droga sin morir',
-    'nivel'  :  5000
-  });
+  capitan.addAll(
+      {'nombre': 'Steve', 'poder': 'Soportar droga sin morir', 'nivel': 5000});
 
   capitan.addAll(ironman);
   print(capitan);

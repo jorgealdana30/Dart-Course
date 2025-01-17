@@ -7,8 +7,7 @@ main() {
   int number2 = ReadAndWrite.readNumber('Escribe segundo numero');
   int number3 = ReadAndWrite.readNumber('Escribe tercer numero');
 
-  if (number1 == number2 && number2 == number3)
-    print('''
+  if (number1 == number2 && number2 == number3) print('''
     La suma de los dos primeros numeros es: ${number1 + number2} 
     La multiplicación de la suma y el numero tres es de: ${(number1 + number2) * number3}
     ''');
