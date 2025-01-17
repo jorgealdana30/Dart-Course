@@ -21,4 +21,8 @@ class ReadAndWrite {
     stdout.writeln(prompt);
     return double.parse(stdin.readLineSync() ?? '0.0');
   }
+
+  static void writeConsole(String prompt) {
+    stdout.writeln(prompt);
+  }
 }
