@@ -1,4 +1,4 @@
-import '../shared/utils/read_and_write.dart';
+import '../../shared/utils/read_and_write.dart';
 
 main() {
   ReadAndWrite.writeConsole('Tablas de multiplicar: ');

@@ -1,4 +1,4 @@
-import '../shared/utils/read_and_write.dart';
+import '../../shared/utils/read_and_write.dart';
 
 main() {
   List<int> numbers = [2, 3, 4, 5, 6];

@@ -1,4 +1,4 @@
-import '../shared/utils/read_and_write.dart';
+import '../../shared/utils/read_and_write.dart';
 
 main() {
   int positivos = 0, negativos = 0, multiplos15 = 0, acumuladoPares = 0;
