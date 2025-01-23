@@ -11,6 +11,11 @@ class ReadAndWrite {
     return int.tryParse(stdin.readLineSync() ?? '0');
   }
 
+  static double? readDoubleOrNull(String prompt) {
+    stdout.writeln(prompt);
+    return double.tryParse(stdin.readLineSync() ?? '0.0');
+  }
+
   static String readString(String prompt) {
     stdout.writeln(prompt);
     return stdin.readLineSync() ?? '';
