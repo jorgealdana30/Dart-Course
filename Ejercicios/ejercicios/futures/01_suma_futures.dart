@@ -5,5 +5,5 @@ main() {
     return Random().nextInt(100);
   });
 
-  sumaFuture.then((valor) => print('Valor $valor: ${valor * 2}'));
+  sumaFuture.then((valor) => print('$valor * 2: ${valor * 2}'));
 }
