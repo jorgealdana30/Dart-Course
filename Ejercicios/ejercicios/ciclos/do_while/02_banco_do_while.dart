@@ -18,12 +18,13 @@ main() {
       continue;
     }
 
-    if (amountAccount > 0){
+    if (amountAccount > 0) {
       ReadAndWrite.writeConsole('Acreedor');
       sumaAcreedor += amountAccount;
       continue;
     }
   } while (accountNumber > 0);
 
-  ReadAndWrite.writeConsole('La suma de las cuentas acreedoras es: $sumaAcreedor');
+  ReadAndWrite.writeConsole(
+      'La suma de las cuentas acreedoras es: $sumaAcreedor');
 }

@@ -7,11 +7,11 @@ main() {
   //Añadir cliente
   clientes.add('Rita');
 
- //Mostrar clientes
+  //Mostrar clientes
   print(clientes);
 
   //Atender clientes
-  while(clientes.isNotEmpty) {
+  while (clientes.isNotEmpty) {
     String clienteAtendido = clientes.removeFirst();
     print('Atendiendo a: $clienteAtendido');
     print('Clientes pendientes: $clientes');

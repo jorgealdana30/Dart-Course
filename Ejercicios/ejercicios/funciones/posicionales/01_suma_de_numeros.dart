@@ -15,19 +15,23 @@ void main() {
 
   switch (option) {
     case 1:
-      ReadAndWrite.writeConsole('La suma es de: ${sumarNumeros(number1, number2)}');
+      ReadAndWrite.writeConsole(
+          'La suma es de: ${sumarNumeros(number1, number2)}');
       break;
 
     case 2:
-      ReadAndWrite.writeConsole('La resta es de: ${restarNumeros(number1, number2)}');
+      ReadAndWrite.writeConsole(
+          'La resta es de: ${restarNumeros(number1, number2)}');
       break;
 
     case 3:
-      ReadAndWrite.writeConsole('La multiplciación es de: ${multiNumeros(number1, number2)}');
+      ReadAndWrite.writeConsole(
+          'La multiplciación es de: ${multiNumeros(number1, number2)}');
       break;
 
     case 4:
-      ReadAndWrite.writeConsole('La división es de: ${divideNumeros(number1, number2)}');
+      ReadAndWrite.writeConsole(
+          'La división es de: ${divideNumeros(number1, number2)}');
       break;
   }
 }

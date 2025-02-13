@@ -1,7 +1,8 @@
 import '../shared/utils/read_and_write.dart';
 
 main() {
-  String nota = ReadAndWrite.readString('Ingrese la calificación (A, B, C, D, E)');
+  String nota =
+      ReadAndWrite.readString('Ingrese la calificación (A, B, C, D, E)');
 
   switch (nota) {
     case 'A':

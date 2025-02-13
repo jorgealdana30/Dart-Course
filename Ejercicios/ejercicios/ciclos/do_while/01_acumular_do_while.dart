@@ -9,7 +9,8 @@ main() {
     if (number == 9999) {
       ReadAndWrite.writeConsole('Programa finalizado');
       return;
-    };
+    }
+    ;
     suma += number;
     ReadAndWrite.writeConsole('El acumulado es: $suma');
   } while (number != 9999);

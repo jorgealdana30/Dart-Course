@@ -12,4 +12,3 @@ void cargarDatos(Function(String) callback) {
 void mostrarMensaje(String mensaje) {
   print(mensaje);
 }
-

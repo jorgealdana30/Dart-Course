@@ -8,6 +8,8 @@ main() {
   });
 }
 
-Future<int> randomNumber() => Future.delayed(Duration(seconds: 1), () => Random().nextInt(100));
+Future<int> randomNumber() =>
+    Future.delayed(Duration(seconds: 1), () => Random().nextInt(100));
 
-Future<int> sum5(int number) => Future.delayed(Duration(seconds: 1), () => number + 5);
+Future<int> sum5(int number) =>
+    Future.delayed(Duration(seconds: 1), () => number + 5);
