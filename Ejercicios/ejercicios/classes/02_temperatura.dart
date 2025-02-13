@@ -1,4 +1,4 @@
-import 'Temperatura.dart';
+import 'class/temperatura.dart';
 
 main() {
   final temperatura = Temperatura();
