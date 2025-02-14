@@ -9,7 +9,7 @@ main () async {
   print("Wifi Habilitado: ${configuracion.isWifiEnabled}");
   print("Bluetooth Habilitado: ${configuracion.isBluetoothEnabled}");
 
-  print("Habilitando configuración...\n");
+  print("Habilitando configuración...q\n");
 
   await Future.delayed(Duration(seconds: 2));
 
