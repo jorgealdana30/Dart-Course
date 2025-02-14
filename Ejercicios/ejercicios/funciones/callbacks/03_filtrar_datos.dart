@@ -10,10 +10,10 @@ main() {
   print('Números multiplos de 5: $multi5');
 }
 
-List<int> filtrar(List<int> numeros, bool Function(int) condicion){
+List<int> filtrar(List<int> numeros, bool Function(int) condicion) {
   List<int> resultado = [];
-  for (int numero in numeros){
-    if(condicion(numero)) {
+  for (int numero in numeros) {
+    if (condicion(numero)) {
       resultado.add(numero);
     }
   }
@@ -22,4 +22,4 @@ List<int> filtrar(List<int> numeros, bool Function(int) condicion){
 
 bool esPar(int numero) => numero % 2 == 0;
 bool esImpar(int numero) => numero % 2 != 0;
-bool esMultiplo5 (int numero) => numero % 5 == 0;
+bool esMultiplo5(int numero) => numero % 5 == 0;

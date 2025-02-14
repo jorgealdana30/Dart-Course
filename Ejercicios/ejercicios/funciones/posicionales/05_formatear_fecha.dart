@@ -1,7 +1,6 @@
 import '../../shared/utils/read_and_write.dart';
 
 void main() {
-
   String day = ReadAndWrite.readString('Ingrese un día');
   String month = ReadAndWrite.readString('Ingrese un mes');
   String year = ReadAndWrite.readString('Ingrese un año');

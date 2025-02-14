@@ -1,4 +1,3 @@
-
 import 'dart:collection';
 
 Queue<String> printQueue = Queue();
@@ -11,7 +10,7 @@ main() {
   print('Cola de Impresion');
   showQueue();
 
-  while (printQueue.isNotEmpty){
+  while (printQueue.isNotEmpty) {
     print('Imprimiendo...');
     print(printDocuments());
   }
