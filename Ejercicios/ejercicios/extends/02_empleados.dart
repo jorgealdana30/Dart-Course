@@ -24,7 +24,6 @@ class Vendedor extends Empleado {
 
   @override
   String? get nombre => 'Vendedor';
-  
 }
 
 main() {

@@ -6,13 +6,11 @@ class Animal {
 }
 
 class Perro extends Animal {
-
   @override
   void hacerSonido() => print('Guau Guau!');
 }
 
 class Gato extends Animal {
-
   @override
   void hacerSonido() => print('Miau Miau!');
 }

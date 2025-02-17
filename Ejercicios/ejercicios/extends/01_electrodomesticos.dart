@@ -2,7 +2,7 @@ class Electrodomestico {
   String? marca;
   String? modelo;
 
-  void encender(){}
+  void encender() {}
 }
 
 class Lavadora extends Electrodomestico {
