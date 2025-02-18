@@ -3,7 +3,7 @@ abstract class Animal {
 }
 
 mixin Nadador {
-  void nadar() => print('Puedo nadar');
+  void nadar();
 }
 
 mixin Corredor {
@@ -21,6 +21,9 @@ class Perro extends Animal with Corredor, Nadador {
     correr();
     nadar();
   }
+
+  @override
+  void nadar() => print('Puedo nadar');
 }
 
 class Gato extends Animal with Corredor, TrepaArboles {
@@ -35,6 +38,9 @@ class Pez extends Animal with Nadador {
 
   @override
   void describir() => nadar();
+
+  @override
+  void nadar() => print('Puedo nadar');
 }
 
 main() {
