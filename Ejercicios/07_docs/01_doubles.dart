@@ -1,6 +1,6 @@
 main() {
 
-  double numero = 3.1416;
+  double numero = 0.1416;
 
   print('Firma: ${numero.sign} :: ${numero}');
   print('isFinite: ${numero.isFinite} :: ${numero}');
@@ -8,4 +8,5 @@ main() {
   print('abs: ${numero.abs()} :: ${numero}');
   print('ceil: ${numero.ceilToDouble()} :: ${numero}');
   print('round: ${numero.roundToDouble()} :: ${numero}');
+  print('clamp: ${numero.clamp(1, 3)} :: ${numero}');
 }
