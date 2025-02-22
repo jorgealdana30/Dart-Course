@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/armstrong-numbers/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/armstrong-numbers/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/armstrong-numbers/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/atbash-cipher/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/atbash-cipher/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/atbash-cipher/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/difference-of-squares/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/difference-of-squares/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/difference-of-squares/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/eliuds-eggs/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/eliuds-eggs/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/eliuds-eggs/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/etl/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/etl/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/etl/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/high-scores/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/high-scores/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/high-scores/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/leap/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/leap/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/leap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/nucleotide-count/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/nucleotide-count/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/nucleotide-count/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/proverb/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/proverb/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/proverb/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/scrabble-score/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/scrabble-score/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Exercism/dart/scrabble-score/build" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+  </component>
+</module>
