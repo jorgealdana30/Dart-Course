@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/presentation/screens/counter/counter_screen.dart';
 
 void main () {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -11,7 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Center(child: Text('Hola mundo.')),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          useMaterial3: true,
+          colorSchemeSeed: Colors.blue
+      ),
+      home: CounterScreen()
     );
   }
 }
