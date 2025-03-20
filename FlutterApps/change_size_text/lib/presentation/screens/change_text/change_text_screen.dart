@@ -16,7 +16,10 @@ class _ChangeTextScreenState extends State<ChangeTextScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Esto es un texto de ejemplo que puede aumentar o disminuir', style: TextStyle(fontSize: size),),
+          Padding(padding: EdgeInsets.only(left: 20, right: 20),
+          child:
+            Text('Esto es un texto de ejemplo que puede aumentar o disminuir', style: TextStyle(fontSize: size),),
+          ),
           SizedBox(height: 20,),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

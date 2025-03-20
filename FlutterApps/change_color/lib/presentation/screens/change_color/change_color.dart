@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
+import '../../../config/theme/app_theme.dart';
 import '../../../data/colors.dart';
 
 class ChangeColor extends StatefulWidget {
